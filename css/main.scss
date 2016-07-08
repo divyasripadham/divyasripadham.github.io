@@ -16,3 +16,149 @@
 // Partials
 @import 'includes/header';
 @import 'includes/footer';
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+.bounce:hover {
+  -moz-animation: bounce 0.25s infinite;
+  -webkit-animation: bounce 0.25s infinite;
+  animation: bounce 1s infinite;
+}
+
+ul {
+    li {
+      list-style-type: none;
+      display: inline-block;
+      margin:0 0.5em;
+    }
+  }
+
+.site-header {
+  background: transparent!important;
+  overflow: hidden;
+  padding: 0;
+  height: 600px;
+  h1 {
+    padding-left: 10%;
+    padding-top: 10%;
+  }
+  .kicker {
+    padding-left: 10%;
+  }
+  ul {
+    padding-top: 15%;
+    padding-left: 10%;
+    color: #ff3377;
+  }
+}
+
+.work {
+  clear: both;
+}
+
+.site-footer {
+  padding-bottom: 5px;
+}
+
+.site-nav {
+  float: right;
+  display: block;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 30px 30px 0px 0px;
+  li {
+    margin-left: 20px;
+  }
+}
+
+.site-nav :hover {
+  color: #ffcc33;
+}
+
+ul :hover {
+  color: #ffcc33;
+}
+
+.call-out {
+  padding-bottom: 40px;
+}
+
+.background-video {
+  overflow: hidden;
+}
+
+.background-video__video {
+  position: absolute;
+  background-size: cover;
+  z-index: -100;
+}
+
+.project-thumb:hover {
+  opacity: 0.5;
+}
+
+.work {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.work {
+  display: inline-block;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.work .project {
+  display: inline-block;
+  float: left;
+  margin: 2em auto;
+  clear: none;
+  width: initial;
+}
+
+
+footer {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+article {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15%;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #99004d;
+  font-size: 80%;
+  a {
+    color: #ff3399;
+  }
+}
+
+.site-pages-header {
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .site-nav ul :hover {
+    color: #ff3377;
+  }
+}

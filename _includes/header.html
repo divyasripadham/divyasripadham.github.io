@@ -1,31 +1,25 @@
 <header class="site-header">
-	<div class="branding">
-		{% if site.theme.gravatar %}
-		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="https://secure.gravatar.com/avatar/{{ site.theme.gravatar }}?s=100" alt=""/>
-		</a>
-		{% elsif site.theme.avatar %}
-		<a href="{{ site.baseurl }}/">
-			<img class="avatar" src="/img/{{ site.theme.avatar }}" alt=""/>
-		</a>
-		{% endif %}
-		<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme.title }}</a>
-		</h1>
-	</div>
-	<nav class="site-nav">
-		<ul>
-			{% for page in site.pages %}
-			{% if page.title and page.hide != true %}
-			<li>
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">
-					{{ page.title }}
-				</a>
-			</li>
-			{% endif %}
-			{% endfor %}
-			<!-- Social icons from Font Awesome, if enabled -->
-			{% include icons.html %}
-		</ul>
-	</nav>
+  <link href='https://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+  <div class="text">
+    <nav class="site-nav">
+      <ul>
+        <li><a href ="{{ site.baseurl }}/index">Home</a></li>
+        <li><a href ="{{ site.baseurl }}/index#portfolio">Portfolio</a></li>
+        <li><a href ="{{ site.baseurl }}/about">About</a></li>
+        <li><a href ="{{ site.baseurl }}/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="background-video">
+      <video autoplay loop muted class="background-video__video">
+        <source src="{{ site.baseurl }}/assets/video/video2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+
+    <h1><span>Divya Sripadham</span></h1>
+    <p class="kicker">Full Stack Web Developer</p>
+    <ul>{% include icons.html %}</ul>
+
+  </div>
 </header>
