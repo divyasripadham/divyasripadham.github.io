@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+feature-img: "img/fountain-pen.jpg"
 ---
 
 Questions, Feedback, or Just a Friendly Hello

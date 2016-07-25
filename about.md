@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
+title: Divya Sripadham
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/fountain-pen.jpg"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+I am Divya, a Full Stack Web Developer, passionate about building web applications using technologies such as Rails, JavaScript, jQuery and AngularJS. When I am not coding, you can find me learning music, cooking spicy Indian food or spending quality time with my kids.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+Check out my [portfolio]({{ site.baseurl }}/index#portfolio) section or my [github](https://github.com/divyasripadham) page for samples of my work.

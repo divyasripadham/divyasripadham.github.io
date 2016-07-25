@@ -54,6 +54,8 @@ ul {
   overflow: hidden;
   padding: 0;
   height: 600px;
+  border-top: 5px solid #f37;
+  margin: 0;
   h1 {
     padding-left: 10%;
     padding-top: 10%;
@@ -74,6 +76,7 @@ ul {
 
 .site-footer {
   padding-bottom: 5px;
+  
 }
 
 .site-nav {
@@ -104,6 +107,13 @@ ul :hover {
 }
 
 .background-video__video {
+  position: absolute;
+  background-size: cover;
+  z-index: -100;
+}
+
+.background-img {
+  overflow: hidden;
   position: absolute;
   background-size: cover;
   z-index: -100;
