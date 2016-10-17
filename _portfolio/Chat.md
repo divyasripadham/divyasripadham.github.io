@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bloc Chat
+title: Chat
 feature-img: "img/sample_feature_img.png"
 thumbnail-path: "https://d13yacurqjgara.cloudfront.net/users/3217/screenshots/2030966/blocjams_1x.png"
 short-description: Real time chat application
 link: "https://github.com/divyasripadham/bloc-chat"
 
 ---
-Bloc Chat is a real-time chat application built using AngularJS and Firebase.
+Chat is a real-time chat application built using AngularJS and Firebase.
 
 | User Stories
 | -------------
